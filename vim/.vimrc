@@ -1,6 +1,9 @@
 set nocompatible              " required
 filetype off                  " required
 
+" netrw directory list style:
+let g:netrw_liststyle = 3
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -46,6 +49,8 @@ colorscheme gruvbox
 "  colorscheme zenburn
 "endif
 
+" Enable macOS clipboard via vim
+set clipboard=unnamed
 
 "split navigations
 nnoremap <C-J> <C-W><C-J>
@@ -68,7 +73,7 @@ nnoremap <space> za
 
 let g:SimpylFold_docstring_preview=1
 
-au BufNewFile,BufRead *.py
+"au BufNewFile,BufRead *.py
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
