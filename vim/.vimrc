@@ -23,6 +23,8 @@ Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
+Plugin 'christoomey/vim-tmux-navigator'
+
 " add all your plugins here (note older versions of Vundle
 " used Bundle instead of Plugin)
 
